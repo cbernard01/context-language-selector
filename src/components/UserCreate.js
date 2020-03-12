@@ -4,11 +4,15 @@ import Button from "./Button";
 
 const UserCreate = () => {
   return (
-    <div className="ui form">
-      <Field/>
-      <Button/>
+    <div className="ui grid">
+      <div className="five wide column">
+        <div className="ui form">
+          <Field/>
+          <Button/>
+        </div>
+      </div>
     </div>
-  )
+  );
 };
 
 export default UserCreate;
